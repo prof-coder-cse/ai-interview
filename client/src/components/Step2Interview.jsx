@@ -359,7 +359,7 @@ function Step2Interview({ interviewData, onFinish }) {
                 className="flex-1 flex gap-4"
               >
                 <div className="flex-1 h-16 flex items-center px-6 bg-indigo-500/10 border border-indigo-500/20 rounded-2xl text-indigo-300 text-sm font-medium italic overflow-hidden whitespace-nowrap text-ellipsis">
-                  Feedback received. Continue?
+                  Feedback received?
                 </div>
                 <button
                   onClick={handleNext}
