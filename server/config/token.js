@@ -1,5 +1,3 @@
-import jwt from "jsonwebtoken";
-
 const gentoken = async (userId) => {
   try {
     const token = jwt.sign({ userId }, process.env.JWT_SECRETKEY, {
@@ -7,7 +5,6 @@ const gentoken = async (userId) => {
     });
     return token;
   } catch (error) {
-    console.log(error);
+    console.log(error);   // returns undefined!
   }
 };
-export default gentoken;
